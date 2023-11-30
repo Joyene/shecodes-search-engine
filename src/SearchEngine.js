@@ -31,6 +31,7 @@ function SearchEngine() {
         <form className="Search-container" onSubmit={handleSubmit}>
             <input type="search" placeholder="Enter a country..." onChange={updateCountry} />
             <button type="submit">Search</button>
+            <a href="https://github.com/Joyene/shecodes-search-engine">JoyEmmanuel-github</a>
         </form>
     )
     if (loaded) {
